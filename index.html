@@ -10,20 +10,9 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <script>
-  (function(d,t) {
-    var BASE_URL="http://localhost:3000";
-    var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=BASE_URL+"/packs/js/sdk.js";
-    g.async = true;
-    s.parentNode.insertBefore(g,s);
-    g.onload=function(){
-      window.chatwootSDK.run({
-        websiteToken: 'w6WQMtZruo8VwSguVLv2NMRt',
-        baseUrl: BASE_URL
-      })
-    }
-  })(document,"script");
-</script>
+    <script
+      src="https://chat.alhassan-alhussein.com/widget.js?token=019bd24e-742b-71fd-b513-631ac4f925bd"
+      async
+    ></script>
   </body>
 </html>
